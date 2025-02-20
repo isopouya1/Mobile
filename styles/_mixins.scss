@@ -1,0 +1,17 @@
+@mixin normlize (){
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", serif;
+}
+@mixin container($width){
+    max-width: $width;
+    margin: 20px auto;
+}
+@mixin flex($dis,$direction,$align,$justify,$gap){
+    display: $dis;
+    flex-direction: $direction;
+    align-items: $align;
+    justify-content: $justify;
+    gap: $gap;
+}

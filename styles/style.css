@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", serif;
+}
+
+button {
+  font-family: "DM Sans", serif;
+}
+
+body {
+  background-color: #050605;
+}
+
+main {
+  max-width: 390px;
+  margin: 20px auto;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0px;
+}
+header .humber-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 7px;
+  background-color: #88B702;
+  padding: 13px 10px;
+  border: none;
+  border-radius: 100%;
+  cursor: pointer;
+}
+header .humber-menu .humber-items {
+  width: 30px;
+  height: 3px;
+  background-color: #ffffff;
+}/*# sourceMappingURL=style.css.map */
