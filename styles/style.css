@@ -1,3 +1,7 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -16,6 +20,22 @@ body {
 main {
   max-width: 390px;
   margin: 20px auto;
+}
+main .g {
+  background-color: #88B702;
+}
+main .w {
+  background-color: rgb(44, 44, 44);
+}
+main .shadow {
+  width: 100%;
+  height: 300px;
+  background-color: #88B702;
+  filter: blur(700px);
+  border-radius: 100%;
+  position: absolute;
+  z-index: -5;
+  bottom: 0;
 }
 
 header {
@@ -41,4 +61,47 @@ header .humber-menu .humber-items {
   width: 30px;
   height: 3px;
   background-color: #ffffff;
+}
+
+section {
+  margin-top: 40px;
+}
+section h1 {
+  color: #ffffff;
+  font-size: 45px;
+}
+section p {
+  color: #ffffff;
+  font-size: 18px;
+  text-align: justify;
+  margin-top: 30px;
+  line-height: 30px;
+}
+section .btns {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 15px;
+  margin-top: 50px;
+}
+section .btns button {
+  width: 100%;
+  color: #ffffff;
+  padding: 20px 0px;
+  border-radius: 100px;
+  border: none;
+  font-size: 19px;
+  text-transform: uppercase;
+}
+section img {
+  width: 100%;
+  margin-top: 40px;
+}
+
+@media only screen and (min-width: 900px) {
+  main {
+    max-width: 1300px;
+    margin: 20px auto;
+  }
 }/*# sourceMappingURL=style.css.map */
