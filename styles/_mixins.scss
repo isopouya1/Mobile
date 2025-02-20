@@ -15,12 +15,12 @@
     justify-content: $justify;
     gap: $gap;
 }
-@mixin button($width,$padding,$padding2){
+@mixin button($width,$padding,$padding2,$font){
     width: $width;
     color: $white;
     padding: $padding $padding2;
     border-radius: 100px;
     border: none;
-    font-size: 19px;
+    font-size: $font;
     text-transform: uppercase;
 }
